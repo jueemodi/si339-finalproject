@@ -8,6 +8,10 @@
   .skip a:focus{
     position: absolute;
     top: 20px;
+    background-color: #a5cfe9;
+    width: 70%;
+    font-size: larger;
+    text-align: center;
   }
 
 /* styling the text, header, footer, nav */
@@ -102,11 +106,15 @@ a:hover {
 }
 
 .intro{
-    background-color: cadetblue;
+    background-color: #395B5B;
     color:white;
     padding:20px;
     border-radius: 10px;
     margin:auto;
+}
+
+.intro a {
+    color: white;
 }
 
 /* grid */
@@ -159,14 +167,6 @@ a:hover {
 
 .ranking li {
     text-align: center;
-}
-
-/*spotify styling */
-iframe{
-    margin-right: 20px;
-    display: block;
-	width: 60%;
-	margin: auto;
 }
 
 /* ipad size view */
@@ -268,9 +268,9 @@ button{
 
 
 /*form styling */
-    h5{
+    .contact{
         border-radius: 20px;;
-        background-color: lightslategrey;
+        background-color: #535388;
         margin:20px;
         padding: 20px;
         text-align: center;
@@ -316,7 +316,7 @@ button{
     border-radius: 20px;
     border: none;
     border-bottom: 4px solid lightslategrey;
-    background-color: lightslategrey; 
+    background-color: #535388; 
     font-size: 16px;
     font-weight: 400;
     color: #fff;
